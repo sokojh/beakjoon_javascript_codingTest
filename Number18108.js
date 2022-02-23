@@ -1,4 +1,4 @@
-// file system 모듈을 불러온다.
+
 const fs = require('fs');
 
 // fs모듈의 readFileSync 함수를 통해 동기적으로 해당 경로의 파일 전체를 읽어들인다.
@@ -8,5 +8,6 @@ const fs = require('fs');
 // 예) 2 3 입력시, inputData = ['2', '3']
 const inputData1 = fs.readFileSync('입력예제.txt').toString().split(' ');
 
-// options으로 인코딩을 string 자료형으로 넘기는 경우, toString을 할 필요없이 문자열 반환
-const inputData2 = fs.readFileSync(0, 'utf8').split(' ');
+const year = parseInt(inputData1[0])
+
+console.log(year-543)
