@@ -18,6 +18,6 @@ if(dice1!==dice2 ||dice1!==dice3||dice2!==dice3){ //셋중 하나라도 포함�
 
 }
 if(dice1!==dice2&&dice1!==dice3&&dice2!==dice3){
-    const sort = [dice1,dice2.dice3].sort();
-    console.log(sort.pop()*100)
+    const sort = [dice1,dice2,dice3].sort();
+    console.log(sort[2]*100)
 }
