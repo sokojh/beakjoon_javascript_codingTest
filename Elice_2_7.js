@@ -10,12 +10,17 @@ rl.on("line", function (line) {
     input = line
     rl.close();
 }).on("close", function () {
-    let fn1 = 0;
-    result.push(0)
-    let fn2 = 0;
-    for(let i=1;i>parseInt(input);i++){
-        result.push(i)
-        fn2 = result[i-1]+result[i]
+
+    result.push(0,1)
+
+    for(let i=1;i<parseInt(input);i++){
+
+        result.push(result[i-1]+result[i]);
+    }
+    if(result[result.length-1]+result[result.length-2]>parseInt(input)) {
+        result.pop();
+    }else if(parseInt(input)===1){
+        result.pop();
     }
     console.log(result)
 

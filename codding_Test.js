@@ -1,7 +1,3 @@
-dist = [1,34,5,6]
-dist.shift()
-dist.unshift()
+str = "4"
 
-console.log(dist)
-
-
+console.log(str.charCodeAt(0))
