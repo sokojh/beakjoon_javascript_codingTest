@@ -10,7 +10,8 @@ rl.on("line", function (line) {
     input = line
     rl.close();
 }).on("close", function () {
-    if(input.includes("촉촉한 초코칩")){
+
+    if(input.includes("촉촉한 초코칩")===true){
         let tmp = input.match(regExp)
         console.log(tmp.length)
 
