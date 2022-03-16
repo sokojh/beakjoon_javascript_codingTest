@@ -57,4 +57,5 @@ rl.on("line", function (line) {
 }).on("close", function () {
     input.forEach(element => average += element);
     console.log(Math.floor(average/(input.length)));
+
 });
