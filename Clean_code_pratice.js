@@ -1,0 +1,1 @@
+//clean code pratice ES6 typescript 이용해서 작성해보자
