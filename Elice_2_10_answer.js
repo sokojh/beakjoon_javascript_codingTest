@@ -1,36 +1,23 @@
-const readline = require("readline");
+input = [["100","<","300"]]
 
-const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout,
-});
+let num1 = parseInt(input[0][0]);
+let num2 = parseInt(input[0][2]);
+let n = input[0][1];
 
-var input = [];
+if(n=="<"){
+    if(num1<num2){
+        console.log(true);
+    }else{console.log(false);
+}}else if(n==">"){
+    if(num1>num2){
+        console.log(true);
 
-
-
-rl.on("line", function (line) {
-
-    input.push(parseInt(line));
-
-    if (input.length == 2) {
-        rl.close();
-    }
-}).on("close", function () {
-    var x = input[0];
-    var y = input[1];
-    var ans = (6 + y) / (16 + x);
-
-
-
-
-    if (Math.floor(ans * 10) != 0) {
-        console.log(Math.floor(ans * 10) + '할')
-    }
-    if (Math.floor((ans * 100) % 10) != 0) {
-        console.log(Math.floor(ans * 100) % 10 + '푼')
-    }
-    if (Math.floor(((ans * 1000) % 100) % 10) != 0) {
-        console.log((Math.floor(ans * 1000) % 100) % 10 + '리')
-    }
-});
+    }else {
+        console.log(false);
+    }}else if(n=="=="){
+        if(num1===num2){
+            console.log(true);
+        }else {
+            console.log(false);
+        }
+}
