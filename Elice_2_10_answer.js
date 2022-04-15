@@ -17,3 +17,5 @@ var inputA = [{
 
 console.log(inputA);
 console.log(inputA.pop);
+
+console.log(inputA.pop);
