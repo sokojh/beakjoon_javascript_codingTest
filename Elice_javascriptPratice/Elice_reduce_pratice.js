@@ -38,3 +38,15 @@ function faltterArray(givenArray){
     console.log(resultArray)
 }
 faltterArray(HINT_ARRAY)
+// function flattenArray(givenArray) {
+//
+//     if (typeof givenArray !== 'object') {
+//         return givenArray;
+//     }
+//
+//     const resultArray = givenArray.reduce((prev, curr) => {
+//         return prev.concat(flattenArray(curr));
+//     }, []);
+//
+//     return resultArray;
+// }
