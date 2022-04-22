@@ -1,2 +1,2 @@
 let date = Date.now();
-console.log(date)
+console.log(date.toFixed(2))
