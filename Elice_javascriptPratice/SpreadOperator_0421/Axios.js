@@ -1,5 +1,9 @@
+const obj  = {name:'elice',age:5}
 
+const { n1: name, a1:age} = obj;
 
-let m = [1,2,3,4,5]
+const arr = ['some','values']
 
-m.map(element => console.log(element+1))
+const[first,second] = arr;
+
+console.log(obj,arr)
