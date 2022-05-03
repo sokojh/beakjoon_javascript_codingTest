@@ -22,14 +22,29 @@
 //
 // console.log('class는 object 뽑는 기계일뿐')
 //
+//
+// class Hero {
+//     constructor(큐공격,떠블공격) {
+//         this.q = 큐공격;
+//         this.w = 떠블공격
+//     }
+// }
+//
+// let 누누 = new Hero('눈공격','떠블')
+//
+// console.log(누누)
 
-class Hero {
-    constructor(큐공격,떠블공격) {
-        this.q = 큐공격;
-        this.w = 떠블공격
+class Person{
+    name :string;
+    constructor(name:string) {
+        this.name= name;
+
     }
+    say(){
+        return "Hello, My name is"+this.name
+
+    }
+
 }
 
-let 누누 = new Hero('눈공격','떠블')
-
-console.log(누누)
+let person = new Person('june')
