@@ -22,3 +22,5 @@ const daisy: object = {
 const dog = new Dog('Dasisy','bulldog')
 dog.bark()
 bark(daisy);
+
+console.log(bark)
