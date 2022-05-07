@@ -7,4 +7,4 @@ const arr = ['some','values']
 const[first,second] = arr;
 
 console.log(obj,arr)
-console.log(arr)
+console.log(arr[1])
