@@ -11,4 +11,4 @@ const sub = (a,b) =>{
 }
 
 
-console.log(sub(1,2,3))
+console.log(sub(1,2,3,4))
