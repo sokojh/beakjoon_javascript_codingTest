@@ -24,7 +24,7 @@ dog.bark()
 bark(daisy);
 
 console.log(bark)
-
+console.log(bark)
 
 console.log(bark)
 console.log(bark)
