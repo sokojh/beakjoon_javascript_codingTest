@@ -9,7 +9,7 @@ function main(){
     foo(()=>{
         console.log('callbakc called, but not the end!!')
     });
-    console.log('this is the real end!!!!')
+    console.log('this is the real end!!!!!')
 }
 
 main()
