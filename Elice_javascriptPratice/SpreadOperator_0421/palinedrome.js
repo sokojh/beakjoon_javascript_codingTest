@@ -13,7 +13,7 @@ function palinedrome(str){
         a+=str[j]
     }
     console.log(b,a)
-    console.log(a,1)
+    console.log(a,1,2)
     console.log(a===b)
 
 }
