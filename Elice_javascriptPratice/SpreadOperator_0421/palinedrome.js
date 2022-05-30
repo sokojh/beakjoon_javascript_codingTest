@@ -12,7 +12,7 @@ function palinedrome(str){
     for(let j = str.length-1; j>Math.ceil(str.length/median )-1;j--){
         a+=str[j]
     }
-    console.log(b,a)
+    console.log(b,a,1)
     console.log(a,1,2)
     console.log(a===b)
 
