@@ -10,4 +10,4 @@ while(true){
 }
 this.count++
 
-console.log()
+console.log(currentTime)
