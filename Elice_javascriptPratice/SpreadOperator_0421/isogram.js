@@ -21,4 +21,3 @@ function isIsogram(str){
 const String = "subdermatoglyphic"
 
 console.log(isIsogram(String))
-console.log(String)
