@@ -20,5 +20,6 @@ promise
 .finally(()=>{
     console.log(promise)
     console.log('promise 종료')
+    console.log('끝')
 })
 
