@@ -8,7 +8,6 @@ async function test(){
 
     }catch(err){
         console.log(err.message)
-        console.log(err.message)
 
     }
 }
