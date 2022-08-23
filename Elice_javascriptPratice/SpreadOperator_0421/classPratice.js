@@ -48,3 +48,5 @@ class Person{
 }
 
 let person = new Person('june')
+
+console.log(person)
