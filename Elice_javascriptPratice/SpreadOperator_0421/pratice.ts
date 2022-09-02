@@ -20,6 +20,5 @@ const daisy: object = {
     species: 'Bulldog'
 };
 const dog = new Dog('Dasisy','bulldog')
-dog.bark()
-bark(daisy);
+dog.bark();
 
