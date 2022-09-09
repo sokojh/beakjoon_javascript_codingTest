@@ -8,3 +8,4 @@ const pratice = async ()=> {
 }
 pratice();
 console.log('consle')
+console.log('consle')
