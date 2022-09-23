@@ -52,4 +52,3 @@ function flattenArray(givenArray) {
 }
 
 console.log(result)
-console.log(result)
