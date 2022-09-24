@@ -50,5 +50,3 @@ function flattenArray(givenArray) {
 
     return resultArray;
 }
-
-console.log(result)
