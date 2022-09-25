@@ -3,6 +3,7 @@ str1.length;
 
 var fruit = ["사과","배","포도"]
 fruit.shift()
-
+fruit.map()
 let num = 1;
+
 console.log(++num,num)
