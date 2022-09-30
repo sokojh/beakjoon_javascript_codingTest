@@ -8,7 +8,6 @@ const pratice = async ()=> {
     await console.log(1)
     num+1
     num+2
-    console.log(num)
 
 }
 pratice();
