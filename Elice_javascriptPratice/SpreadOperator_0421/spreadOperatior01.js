@@ -29,3 +29,4 @@ for(const[key,value]of Object.entries(map)){
 }
 
 console.log(map,resultString);
+console.log(map,resultString);
