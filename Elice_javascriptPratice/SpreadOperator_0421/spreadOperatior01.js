@@ -28,3 +28,4 @@ for(const[key,value]of Object.entries(map)){
     resultString+=`[${key}:${value}]`
 }
 
+console.log(resultString)
