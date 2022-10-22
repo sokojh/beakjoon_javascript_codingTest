@@ -12,3 +12,4 @@ const pratice = async ()=> {
     console.log(num)
 }
 pratice();
+pratice();
