@@ -8,5 +8,5 @@ let student = { name: "inkwon",
 age:20,
 }
 
-
+console.log(area)
 console.log(area(2,3));
