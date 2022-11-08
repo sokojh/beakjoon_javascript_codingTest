@@ -22,3 +22,4 @@ function palinedrome(str){
 const String =  'redivider'
 
 console.log(palinedrome(String))
+console.log(a)
