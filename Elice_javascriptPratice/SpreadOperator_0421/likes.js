@@ -20,4 +20,3 @@ function likes(names) {
 
 
 let name = [];
-console.log(likes(name));
